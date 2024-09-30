@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         NAMESPACE = 'webapp'
-        REPO_URL = 'https://github.com/zyadtarek11/kuberentes_three_tier.git'
+        REPO_URL = 'https://github.com/MuhamedMaher/3-tier-app.git'
         DOCKER_REGISTRY = 'mohamedmaher77'  // Your Docker Hub username
         registryCredential = 'dockerhub-credentials' // Your Jenkins credentials ID for Docker Hub
     }
